@@ -32,6 +32,12 @@ Install dependencies:
 
 This will put a static version of the site in `out/`.
 
+Finally, run:
+
+`sed -i -- 's#/_next#_next#g' out/index.html`
+
+This will remove some leading slashes that cause problems displaying the webpage.
+
 ## Future work
 
 * Load initial data from a file, to improve flexibility.
