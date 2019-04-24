@@ -1,6 +1,6 @@
 # Snowflake
 
-Snowflake is Medium's tool for planning and supporting our engineers' career development. Trade Me has forked this and amended to support analyts career development. 
+Snowflake is Medium's tool for planning and supporting our engineers' career development. Trade Me has forked this and amended to support analysts career development. 
 
 You can read more about how Medium use this tool in our [growth framework documentation](https://medium.com/s/engineering-growth-framework).
 
