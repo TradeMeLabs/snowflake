@@ -1,6 +1,6 @@
 # Snowflake
 
-Snowflake is Medium's tool for planning and supporting our engineers' career development. Trade Me has forked this and amended to support analysts career development. 
+Snowflake is Medium's tool for planning and supporting our engineers' career development. Trade Me has forked this and amended to support analysts career development.
 
 You can read more about how Medium use this tool in our [growth framework documentation](https://medium.com/s/engineering-growth-framework).
 
@@ -28,6 +28,22 @@ Install dependencies:
 
 ### Building
 
+#### OPTION ONE
+
+`./build.sh`
+
+NB: you may need to `chmod 755 build.sh` first.
+
+
+#### OPTION TWO
+
+Compose the constants file from the new data:
+`python snowflake-csv-to-js.py`
+`cat constants1.js trackdata.js constants2.js > constants.js`
+`cat components/SnowflakeApp1.js snowflakedata.js components/SnowflakeApp2.js > components/SnowflakeApp.js`
+
+
+Compile the application:
 `yarn export`
 
 This will put a static version of the site in `out/`.

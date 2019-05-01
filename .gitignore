@@ -3,4 +3,5 @@ node_modules
 out
 yarn-error.log
 .DS_STORE
-
+snowflakedata.js
+trackdata.js
