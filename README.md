@@ -38,8 +38,11 @@ NB: you may need to `chmod 755 build.sh` first.
 #### OPTION TWO
 
 Compose the constants file from the new data:
+
 `python snowflake-csv-to-js.py`
+
 `cat constants1.js trackdata.js constants2.js > constants.js`
+
 `cat components/SnowflakeApp1.js snowflakedata.js components/SnowflakeApp2.js > components/SnowflakeApp.js`
 
 
