@@ -57,11 +57,9 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
             text-decoration: none;
           }
         `}</style>
-        <div style={{margin: '19px auto 0', width: 142}}>
-          <a href="https://medium.com/" target="_blank">
-            <Wordmark />
-          </a>
-        </div>
+        <div>
+         <center><img src='https://www.trademe.co.nz/images/new-brand-2016/common/tm-logo-2016-594x116-v1.png' width='300px'></img></center>
+         </div>
         <div style={{display: 'flex'}}>
           <div style={{flex: 1}}>
             <form>

@@ -28,7 +28,7 @@ export const categoryColorScale = d3.scaleOrdinal()
   .range(['#00abc2', '#428af6', '#e1439f', '#e54552'])
 
 export const titles = [
-  {label: 'Analyst', minPoints: 0, maxPoints: 90}
+  {label: 'Analyst', minPoints: 0, maxPoints: 320}
 ]
 
 export const eligibleTitles = (milestoneMap: MilestoneMap): string[] => {

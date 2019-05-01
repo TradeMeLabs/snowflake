@@ -74,21 +74,21 @@ const defaultState = (): SnowflakeAppState => {
     name: "Cersei Lannister",
     title: "Analyst",
     milestoneByTrack: {
-	'BUSINESS_KNOWLEDGE': 5,
-	'STORYTELLING': 3,
-	'ANALYTICAL_APPLICATION': 3,
+	'BUSINESS_KNOWLEDGE': 2,
+	'STORYTELLING': 4,
+	'ANALYTICAL_APPLICATION': 1,
 	'TOOLS_&_TECHNIQUES': 5,
-	'PROJECT_MANAGEMENT': 5,
-	'COMMUNICATION': 3,
-	'CRAFT': 1,
-	'INITIATIVE': 2,
-	'MENTORSHIP': 1,
-	'EVANGELISM': 3,
-	'RECRUITING': 5,
-	'COMMUNITY': 3,
-	'CAREER_DEVELOPMENT': 5,
-	'ORG_DESIGN': 4,
-	'WELLBEING': 2,
+	'PROJECT_MANAGEMENT': 1,
+	'COMMUNICATION': 4,
+	'CRAFT': 3,
+	'INITIATIVE': 4,
+	'MENTORSHIP': 4,
+	'EVANGELISM': 4,
+	'RECRUITING': 4,
+	'COMMUNITY': 1,
+	'CAREER_DEVELOPMENT': 4,
+	'ORG_DESIGN': 5,
+	'WELLBEING': 1,
 	'ACCOMPLISHMENT': 3},
  focusedTrackId: "BUSINESS_KNOWLEDGE"}
 }
@@ -151,11 +151,9 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
             text-decoration: none;
           }
         `}</style>
-        <div style={{margin: '19px auto 0', width: 142}}>
-          <a href="https://medium.com/" target="_blank">
-            <Wordmark />
-          </a>
-        </div>
+        <div>
+         <center><img src='https://www.trademe.co.nz/images/new-brand-2016/common/tm-logo-2016-594x116-v1.png' width='300px'></img></center>
+         </div>
         <div style={{display: 'flex'}}>
           <div style={{flex: 1}}>
             <form>

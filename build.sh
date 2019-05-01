@@ -9,4 +9,4 @@ cat components/SnowflakeApp1.js snowflakedata.js components/SnowflakeApp2.js > c
 yarn export
 
 #removes leading slashes from index files
-sed -i -- 's#/_next#_next#g' out/index.html
+sed -i .bak 's#/_next#_next#g' out/index.html
